@@ -1,0 +1,22 @@
+#game {
+  table.board {
+    border-collapse: separate;
+
+    td {
+      border: 1px solid #808080;
+      border-radius: 5px;
+      width: 48px;
+      height: 48px;
+      text-align: center;
+      align-items: center;
+      user-select: none;
+
+      &:hover {
+        background-color: #F0F0F0;
+      }
+      &:active {
+        background-color: #E0E0E0;
+      }
+    }
+  }
+}

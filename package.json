@@ -1,0 +1,38 @@
+{
+  "name": "github-workflow-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --mode production --config ./webpack.prod.js",
+    "dev": "webpack --mode development --config ./webpack.dev.js",
+    "watch": "webpack --mode development --watch --config ./webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tsukina-7mochi/workflow-webpack-test.git"
+  },
+  "author": "Tsukina-7mochi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsukina-7mochi/workflow-webpack-test/issues"
+  },
+  "homepage": "https://github.com/Tsukina-7mochi/workflow-webpack-test#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.14.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "license-checker": "^25.0.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
